@@ -19,17 +19,17 @@
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// This can be used to network with other containers or with the host.
 	"forwardPorts": [
-		3001,
-		3002,
+		3000,
+		// 3002,
 		5432
 	],
 	"portsAttributes": {
-		"3001": {
-			"label": "Service A (Main)"
-		},
-		"3002": {
-			"label": "Service B"
-		},
+		// "3001": {
+		// 	"label": "Service A (Main)"
+		// },
+		// "3002": {
+		// 	"label": "Service B"
+		// },
 		"5432": {
 			"label": "Database Postgress"
 		}

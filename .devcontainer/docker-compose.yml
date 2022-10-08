@@ -37,7 +37,9 @@ services:
     working_dir: /workspace
     command: ['node','index.js']
     #command: sleep infinity
-    network_mode: service:db
+    #network_mode: service:db
+    ports:
+      - "3000"
   db:
     image: postgres:latest
     restart: unless-stopped
