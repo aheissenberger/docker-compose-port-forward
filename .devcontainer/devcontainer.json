@@ -20,17 +20,17 @@
 	// This can be used to network with other containers or with the host.
 	"forwardPorts": [
 		3000,
-		// 3002,
-		5432
+		"serviceb:3000",
+		"db:5432"
 	],
 	"portsAttributes": {
-		// "3001": {
-		// 	"label": "Service A (Main)"
-		// },
-		// "3002": {
-		// 	"label": "Service B"
-		// },
-		"5432": {
+		"3000": {
+			"label": "Service A (Main)"
+		},
+		"serviceb:3000": {
+			"label": "Service B"
+		},
+		"db:5432": {
 			"label": "Database Postgress"
 		}
 	},

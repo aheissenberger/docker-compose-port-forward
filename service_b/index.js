@@ -6,9 +6,6 @@ const port = 3000
 app.get('/', (req, res) => {
   var response = 'Service B'
 
-  // request('http://localhost:3001/', { json: true }, (err, res, body) => {
-  //   response = response + body
-  // })
   res.send(response)  
 })
 
