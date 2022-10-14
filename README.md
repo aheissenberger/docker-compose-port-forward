@@ -7,6 +7,8 @@ After starting the setup you see the port for one service in the VSCode ports ta
 
 This is the example code for the blog post [Port forward with DevContainer and Docker Compose fails](https://www.heissenberger.at/en/blog/devcontainer-forward-ports-composer/)
 
+> Solution C / IP Sharing Code & Setup Branch
+
 ![C4 Application Component Diagram](docs/c4-app-diagram.drawio.svg)
 
 ## License
